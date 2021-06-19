@@ -147,5 +147,11 @@ transform:translatey(0);
 transition-delay:.2s;
 }
 
+.inlineflex {
+    display:inline-flex;
+}
 
+    .inlineflex a.info {
+        margin: 50px 2px 0px 2px;
+    }
 
