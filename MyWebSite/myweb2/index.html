@@ -1,0 +1,351 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <script src="app.js"></script>
+    <script>
+        add_head();//引用bootstrap.JQuery.CSS資源
+    </script>
+</head>
+<body>
+    <div class="container" id="about_tab">
+        <script>
+            shownav('about');//引用JS寫入導覽列,頁面參數'about','portfolio','skill'
+        </script>
+
+        <div id="content">
+            <div class="row">
+                <div class="col-md-5 col-sm-7 obj">
+                    <table>
+                        <tr><td colspan="3"><p id="h4">許紫婷</p></td></tr>
+                        <tr>
+                            <td rowspan="6"><img class="small_Img" src="img/my_pic2.jpg" /></td>
+                        </tr>
+                        <tr><td>&nbsp&nbsp</td><td>Email：<a href="mailto:donna41827@gmail.com" target="_blank"><span class="hidden-xs">donna41827@gmail.com&nbsp</span><span class="glyphicon glyphicon-envelope"></span></a></td></tr>
+                        <tr><td>&nbsp&nbsp</td><td>居住地：台北內湖</td></tr>
+                        <tr><td>&nbsp&nbsp</td><td>生日：81.04.18</td></tr>
+                        <tr><td>&nbsp&nbsp</td><td>專長：ASP.NET C# / MSSQL / Oracle / JavaScript</td></tr>
+                        <tr><td>&nbsp&nbsp</td><td>學歷：靜宜大學碩士畢業</td></tr>
+                    </table>
+                </div>
+                <div class="col-md-5 col-sm-7 obj">
+                    <p id="h4">關於我</p>
+                    <!--<p class="session_txt">我是熱情、有衝勁、有毅力的牡羊座。平常喜歡運動、旅遊、騎腳踏車，喜歡小動物。我做事認真負責、學習意願佳、抗壓性強。指派給我的事情我都會盡力做到最好。</p>
+        <p id="skill_tab" class="session_txt">趁著轉職的休息時間，我去報名了英文補習班、烏克麗麗課、並利用閒暇時間看書加強我的職業技能。此外，我熱愛挑戰，我相信每一次挑戰都是成長的機會，因此我珍惜每一次進步的機會。</p>-->
+                    <p class="session_txt">
+                        我是熱情、有衝勁、有毅力的牡羊座，我喜歡小動物，家裡有養一隻貓，平常喜歡上網、彈烏克麗麗。我做事認真負責、學習意願佳、抗壓性強，指派給我的事情我都會盡力做到最好。
+                    </p>
+                    <p class="session_txt" id="skill_tab">期許未來工作能夠跳脫舒適圈，有更多實務經驗，與團隊一同進步，提升專業能力寫出更優雅簡潔，有彈性且利於維護的程式碼。</p>
+                </div>
+                <div class="clearfix hidden-xs"></div>
+
+                <div class="col-md-5 col-sm-7 obj">
+                    <p id="h4">技能</p>
+                    <button id="discribe_control_btn" type="button" onclick="discribe_control_btn();" class="btn btn-default btn-sm" value="1">收起說明</button>
+                </div>
+                <div class="clearfix hidden-xs"></div>
+                <div class="row">
+                    <div class="col-md-offset-1 col-xs-offset-1 col-xs-10">
+                        <h3 class="centered">網頁開發</h3>
+                        <hr>
+                        <br name="skill_describe">
+
+                        <!-- 分隔每2、3個
+                <div name="skill_clearfix2" class="clearfix hidden-xs hidden-md hidden-lg hidden-xl"></div>
+                <div name="skill_clearfix3" class="clearfix hidden-xs hidden-sm"></div>
+            -->
+
+                        <div class="col-md-4 col-sm-6" name="skill_div">
+                            <p><img class="skill_img" src="img/ASP.NET.jpg" />ASP.NET WebForm</p>
+                            <p name="skill_describe">2年ERP系統實作與維護功能工作經驗。</p>
+                        </div><!-- col-lg -->
+                        <div class="col-md-4 col-sm-6" name="skill_div">
+                            <p><img class="skill_img" src="img/ASP.NET_MVC.jpg" />ASP.NET MVC</p>
+                            <p name="skill_describe">SkillTree、恆逸上課經驗，能實作基礎功能，但未有實際工作經驗。</p>
+                        </div><!-- col-lg -->
+                        <div name="skill_clearfix2" class="clearfix hidden-xs hidden-md hidden-lg hidden-xl"></div>
+                        <div class="col-md-4 col-sm-6" name="skill_div">
+                            <p><img class="skill_img" src="img/ASP.NET_CORE.jpg" />ASP.NET Core</p>
+                            <p name="skill_describe">自己練習時使用過，但未有實際工作經驗。</p>
+                        </div><!-- col-lg -->
+                        <div name="skill_clearfix3" class="clearfix hidden-xs hidden-sm"></div>
+
+                        <div class="col-md-4 col-sm-6" name="skill_div">
+                            <p><img class="skill_img" src="img/SpringBoot.png" />Java SpringBoot</p>
+                            <p name="skill_describe">有實做過簡單範例CRUD功能，資料撈取API。</p>
+                        </div><!-- col-lg -->
+                        <div name="skill_clearfix2" class="clearfix hidden-xs hidden-md hidden-lg hidden-xl"></div>
+                        <div class="col-md-4 col-sm-6" name="skill_div">
+                            <p><img class="skill_img" src="img/laravel.png" />Laravel</p>
+                            <p name="skill_describe">了解基礎架構，跟著書本範例實作過部分範例。</p>
+                        </div><!-- col-lg -->
+                        <div class="col-md-4 col-sm-6" name="skill_div">
+                            <p><img class="skill_img" src="img/MVC.jpg" />MVC</p>
+                            <p name="skill_describe">了解基礎概念，有實作過簡單CRUD範例。(ASP.NET MVC、Laraval、Java SpringBoot)</p>
+                        </div><!-- col-lg -->
+                        <div name="skill_clearfix2" class="clearfix hidden-xs hidden-md hidden-lg hidden-xl"></div>
+                        <div name="skill_clearfix3" class="clearfix hidden-xs hidden-sm"></div>
+
+                        <div class="col-md-4 col-sm-6" name="skill_div">
+                            <p><img class="skill_img" src="img/HTML5.png" />HTML5</p>
+                            <p name="skill_describe">能利用HTML5開發網頁，在學期間有使用HTML5 Canvas開發遊戲的經驗。</p>
+                        </div><!-- col-lg -->
+                        <div class="col-md-4 col-sm-6" name="skill_div">
+                            <p><img class="skill_img" src="img/JS.png" />JavaScript</p>
+                            <p name="skill_describe">熟悉基本語法與使用者互動功能開發，有使用JavaScript開發網頁互動功能的經驗。</p>
+                        </div><!-- col-lg -->
+                        <div name="skill_clearfix2" class="clearfix hidden-xs hidden-md hidden-lg hidden-xl"></div>
+                        <div class="col-md-4 col-sm-6" name="skill_div">
+                            <p><img class="skill_img" src="img/CSS.png" />CSS</p>
+                            <p name="skill_describe">了解CSS基礎語法與常用功能，具備基礎開發能力與RWD觀念，有撰寫過RWD網頁經驗。</p>
+                        </div><!-- col-lg -->
+                        <div name="skill_clearfix3" class="clearfix hidden-xs hidden-sm"></div>
+
+                        <div class="col-md-4 col-sm-6" name="skill_div">
+                            <p><img class="skill_img" src="img/RWD.png" />RWD</p>
+                            <p name="skill_describe">具備RWD觀念，有搭配RWD觀念使用CSS與Bootstrap開發網頁經驗。</p>
+                        </div><!-- col-lg -->
+                        <div name="skill_clearfix2" class="clearfix hidden-xs hidden-md hidden-lg hidden-xl"></div>
+                        <div class="col-md-4 col-sm-6" name="skill_div">
+                            <p><img class="skill_img" src="img/Bootstrap.png" />Bootstrap</p>
+                            <p name="skill_describe">有使用Bootstrap開發網站經驗，了解Bootstrap基本工具與Grid切版系統。</p>
+                        </div><!-- col-lg -->
+                        <div class="col-md-4 col-sm-6" name="skill_div">
+                            <p><img class="skill_img" src="img/php.jpg" />PHP</p>
+                            <p name="skill_describe">能看懂基礎語法，有協助朋友進行網站錯誤修復經驗。</p>
+                        </div><!-- col-lg -->
+                        <div name="skill_clearfix2" class="clearfix hidden-xs hidden-md hidden-lg hidden-xl"></div>
+                        <div name="skill_clearfix3" class="clearfix hidden-xs hidden-sm"></div>
+
+                        <div class="col-md-4 col-sm-6" name="skill_div">
+                            <p><img class="skill_img" src="img/ASP.jpg" />ASP</p>
+                            <p name="skill_describe">有3年ERP、POS網站系統功能開發與維運經驗。</p>
+                        </div><!-- col-lg -->
+                        <div class="col-md-4 col-sm-6" name="skill_div">
+                            <p><img class="skill_img" src="img/PhoneGap.jpg" />PhoneGap</p>
+                            <p name="skill_describe">大學時期專題開發之網頁遊戲有使用PhoneGap轉移至iPad上供玩家使用之經驗，了解網頁操作與觸控操作間的差異，並修正程式使其相容。</p>
+                        </div><!-- col-lg -->
+                        <div name="skill_clearfix2" class="clearfix hidden-xs hidden-md hidden-lg hidden-xl"></div>
+                        <div class="col-md-4 col-sm-6" name="skill_div">
+                            <p><img class="skill_img" src="img/APP SCRIPT.png" />AppScript</p>
+                            <p name="skill_describe">使用過GoogleAppScript結合Google表單與試算表開發過訂便當用的小工具。</p>
+                        </div><!-- col-lg -->
+                    </div>
+                </div><!-- row -->
+
+                <div class="row">
+                    <div class="col-md-offset-1 col-xs-offset-1 col-xs-10">
+                        <h3 class="centered">資料庫</h3>
+                        <hr>
+                        <br name="skill_describe">
+                        <div class="col-md-4 col-sm-6" name="skill_div">
+                            <p><img class="skill_img" src="img/database.png" />關聯式資料庫</p>
+                            <p name="skill_describe">在學期間學習關聯式資料庫的課程，具備基礎關聯式資料庫設計的概念，如pk/fk的概念、如何設計表格欄位以及應避免的問題、如何繪製ER-Model等。</p>
+                        </div><!-- col -->
+                        <div class="col-md-4 col-sm-6" name="skill_div">
+                            <p><img class="skill_img" src="img/oracle.jpg" />Oracle</p>
+                            <p name="skill_describe">熟悉Oracle SQL基本語法。有3年相關工作經驗。</p>
+                        </div><!-- col -->
+                        <div name="skill_clearfix2" class="clearfix hidden-xs hidden-md hidden-lg hidden-xl"></div>
+                        <div class="col-md-4 col-sm-6" name="skill_div">
+                            <p><img class="skill_img" src="img/PLSQL.jpg" />PL/SQL</p>
+                            <p name="skill_describe">熟悉PL/SQL語法。有3年相關工作經驗。</p>
+                        </div><!-- col -->
+                        <div name="skill_clearfix3" class="clearfix hidden-xs hidden-sm"></div>
+                        <div class="col-md-4 col-sm-6" name="skill_div">
+                            <p><img class="skill_img" src="img/MYSQL.jpg" />MySQL</p>
+                            <p name="skill_describe">了解基本語法與操作，但無相關工作經驗。</p>
+                        </div><!-- col -->
+                        <div name="skill_clearfix2" class="clearfix hidden-xs hidden-md hidden-lg hidden-xl"></div>
+                        <div class="col-md-4 col-sm-6" name="skill_div">
+                            <p><img class="skill_img" src="img/MSSQL.png" />MSSQL</p>
+                            <p name="skill_describe">熟悉MSSQL語法，有2年工作經驗。</p>
+                        </div><!-- col -->
+                    </div>
+                </div><!-- row -->
+                <div class="row">
+                    <div class="col-md-offset-1 col-xs-offset-1 col-xs-10">
+                        <h3 class="centered">版本控制</h3>
+                        <hr>
+                        <br name="skill_describe">
+                        <div class="col-md-4 col-sm-6" name="skill_div">
+                            <p><img class="skill_img" src="img/git.png" />GIT</p>
+                            <p name="skill_describe">了解使用方式與基本語法。</p>
+                        </div><!-- col -->
+                        <div class="col-md-4 col-sm-6" name="skill_div">
+                            <p><img class="skill_img" src="img/SourceSafe.jpg" />SourceSafe</p>
+                            <p name="skill_describe">2年工作使用經驗。</p>
+                        </div><!-- col -->
+                    </div>
+                </div><!-- row -->
+                <div class="row">
+                    <div class="col-md-offset-1 col-xs-offset-1 col-xs-10">
+                        <h3 class="centered">圖文編輯軟體</h3>
+                        <hr>
+                        <br name="skill_describe">
+                        <div class="col-md-4 col-sm-6" name="skill_div">
+                            <p style="letter-spacing: -1px;"><img class="skill_img" src="img/PS.png" />Photoshop</p>
+                            <!--<p name="skill_describe">了解Photoshop功能及操作，時常幫忙家人修圖去背。在學時期專題也時常需要圖檔繪製與匯出。</p>-->
+                        </div><!-- col -->
+                        <div class="col-md-4 col-sm-6" name="skill_div">
+                            <p><img class="skill_img" src="img/Flash.jpg" />Flash</p>
+                            <!--<p name="skill_describe">了解Flash基本操作以及功能，有使用Flash製作動畫的經驗，在學期間有使用ActionScript製作課堂範例的互動小遊戲。</p>-->
+                        </div><!-- col -->
+                        <div name="skill_clearfix2" class="clearfix hidden-xs hidden-md hidden-lg hidden-xl"></div>
+                        <div class="col-md-4 col-sm-6" name="skill_div">
+                            <p><img class="skill_img" src="img/Word.png" />Word</p>
+                            <!--<p name="skill_describe">具備Word基本操作能力，有使用Word撰寫論文的經驗，時常幫忙家人做文件排版。</p>-->
+                        </div><!-- col -->
+                        <div name="skill_clearfix3" class="clearfix hidden-xs hidden-sm"></div>
+                        <div class="col-md-4 col-sm-6" name="skill_div">
+                            <p><img class="skill_img" src="img/PPT.png" />PPT</p>
+                            <!--<p name="skill_describe">具備PowerPoint基本操作能力，有製作PPT簡報並口頭報告的經驗。</p>-->
+                        </div><!-- col -->
+                        <div name="skill_clearfix2" class="clearfix hidden-xs hidden-md hidden-lg hidden-xl"></div>
+                        <div class="col-md-4 col-sm-6" name="skill_div">
+                            <p><img class="skill_img" src="img/EXCEL.png" />Excel</p>
+                            <!--<p name="skill_describe">具備Excel基本操作能力，能製作簡單報表及圖表並使用常用函式整理資料。</p>-->
+                        </div><!-- col -->
+                    </div>
+                </div><!-- row -->
+                <div class="row">
+                    <div class="col-md-offset-1 col-xs-offset-1 col-xs-10">
+                        <h3 class="centered">語文能力</h3>
+                        <hr>
+                        <br name="skill_describe">
+                        <div class="col-md-4 col-sm-6" name="skill_div">
+                            <p><img class="skill_img" src="img/CH.png" />中文</p>
+                            <p name="skill_describe">中文為母語，具備良好聽說讀寫之能力。</p>
+                        </div><!-- col -->
+                        <div class="col-md-4 col-sm-6" name="skill_div">
+                            <p><img class="skill_img" src="img/TAW.png" />台語</p>
+                            <p name="skill_describe">能聽、說簡單的台語。</p>
+                        </div><!-- col -->
+                        <div name="skill_clearfix2" class="clearfix hidden-xs hidden-md hidden-lg hidden-xl"></div>
+                        <div class="col-md-4 col-sm-6" name="skill_div">
+                            <p><img class="skill_img" src="img/EN.png" />英語</p>
+                            <p name="skill_describe" id="exp_tab">具備基礎文法與閱讀能力。</p>
+                        </div><!-- col -->
+                    </div>
+                </div><!-- row -->
+                <div class="clearfix hidden-xs"></div>
+                <div class="col-md-5 col-sm-7 obj">
+                    <p id="h4">經歷</p>
+                </div>
+                <div class="col-md-10 col-sm-10">
+                    <ul>
+                        <li>格上租車-系統工程師 (2年)</li>
+                        <ul>
+                            <li>負責業務：企業車輛租賃系統ERP維運與需求開發，接觸模組包含客戶資料、試算利率、徵信、車輛採購、報表分析、合約列印。</li>
+                            <li>使用技術：ASP.NET WebForm C#、MSSQL</li>
+                            <li>工作內容</li>
+                            <ul>
+                                <li>系統維運：負責處理系統操作、資料異常、系統Bug等問題</li>
+                                <li>功能開發：與客戶洽談需求、負責模組需求功能開發。</li>
+                            </ul>
+                        </ul>
+                        <li>宏誌科技-系統工程師 (3年)</li>
+                        <ul>
+                            <li>公司業務：百貨公司前台POS與後台ERP系統、會員系統、超市進銷存系統。</li>
+                            <li>代表客戶：新光三越、京站。</li>
+                            <li>所屬部門：百貨公司後台ERP系統維運與開發部門。</li>
+                            <li>使用技術：ASP、Oracle、PL/SQL</li>
+                            <li>工作內容</li>
+                            <ul>
+                                <li>系統維運：負責範圍包含前後台資料串接、電文串接、客戶問題資料處理、電子發票上送問題、外部資料串接(信用卡/悠遊卡/一卡通交易資料)。</li>
+                                <li>功能開發：客戶需求報表開發、發票格式調整、新增電文串接規格、功能調整上線、發票取號功能、電子發票上線、新增外部資料串接。</li>
+                                <li id="prof_tab">內部教育訓練：開發邏輯說明、新進人員指導。</li>
+                            </ul>
+                        </ul>
+                    </ul>
+                </div>
+                <div class="clearfix hidden-xs"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-5 col-sm-7 obj">
+                    <p id="h4">作品集</p>
+                </div>
+                <div class="clearfix hidden-xs"></div>
+                <div class="col-xs-offset-1">
+                    <div class="hovereffect" id="prof_obj">
+                        <img class="mid_Img" src="img/myWeb.PNG" />
+                        <div class="overlay">
+                            <h2>個人網頁RWD練習</h2>
+                            <a class="info" href="https://storage.googleapis.com/mywebsite98/myweb2/index.html" target="_blank">橘皮的網站</a>
+                            <p class="prof_note">負責部分:<br>獨力完成</p>
+                            <p class="prof_note">使用工具:<br>HTML5、JavaScript、CSS、Bootstrap</p>
+                        </div>
+                    </div>
+                    <div class="hovereffect" id="prof_obj">
+                        <img class="mid_Img" src="img/GAS_Tool.jpg" />
+                        <div class="overlay">
+                            <h2>公司訂便當小工具</h2>
+                            <a class="info" href="https://docs.google.com/spreadsheets/d/14wa24Hstw02zzxZK6tr2-laH_SuMYw2ku6g2PSJRZjA/edit#gid=880258544" target="_blank">訂便當</a>
+                            <p class="prof_note">負責部分:<br>獨力完成</p>
+                            <p class="prof_note">使用工具:<br>Google App Script、Google表單、Google試算表</p>
+                        </div>
+                    </div>
+                    <div class="hovereffect" id="prof_obj">
+                        <img class="mid_Img" src="img/justlearn2.jpg" />
+                        <div class="overlay">
+                            <h2>論文遊戲實作</h2>
+                            <a class="info hidden-xs" href="https://storage.googleapis.com/university_project4/default.htm" target="_blank">就醬學-改</a>
+                            <a class="info visible-xs" href="https://storage.googleapis.com/university_project4_mobile/justlearn/default.htm" target="_blank">就醬學-改</a>
+                            <p class="prof_note">負責部分:<br>主體程式撰寫、程式架構設計、畫面設計與繪製、部分動畫製作</p>
+                            <p class="prof_note">使用工具:<br>VisualStudio、JavaScript、Html5、Canvas、CSS、Flash、Photoshop</p>
+                        </div>
+                    </div>
+                    <div class="hovereffect" id="prof_obj">
+                        <img class="mid_Img" src="img/justlearn.jpg" />
+                        <div class="overlay">
+                            <h2>大四專題</h2>
+                            <a class="info hidden-xs" href="https://storage.googleapis.com/university_project3/justlearn/default.htm" target="_blank">就醬學</a>
+                            <a class="info visible-xs" href="https://storage.googleapis.com/university_project3_mobile/justlearn/default.htm" target="_blank">就醬學</a>
+                            <p class="prof_note">負責部分:<br>主體程式撰寫、程式架構設計與討論</p>
+                            <p class="prof_note">使用工具:<br>VisualStudio、JavaScript、Html5、Canvas、CSS</p>
+                        </div>
+                    </div>
+                    <div class="hovereffect" id="prof_obj">
+                        <img class="mid_Img" src="img/BGnew.gif" style="z-index:-1;position:absolute;" />
+                        <img class="mid_Img" src="img/zoo_btn.png" />
+                        <div class="overlay">
+                            <h2>大三專題</h2>
+                            <a class="info" href="https://storage.googleapis.com/university_project2/www/zoo-start.html" target="_blank">動物園裡的數學</a>
+                            <p class="prof_note">負責部分:<br>劇本構思，元件、按鈕、背景圖檔繪製</p>
+                            <p class="prof_note">使用工具:<br>Flash、Photoshop</p>
+                        </div>
+                    </div>
+                    <div class="hovereffect" id="prof_obj">
+                        <img id="mylife_tab" class="prof_obj" src="img/u1.jpg" />
+                        <div class="overlay">
+                            <h2>大二專題</h2>
+                            <a class="info" href="https://www.cs.pu.edu.tw/~s9973106/web/cscefood/index.html" target="_blank">最得意的一件事</a>
+                            <p class="prof_note">負責部分:<br>首頁動畫製作</p>
+                            <p class="prof_note">使用工具:<br>Flash、Photoshop</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--<div class="clearfix hidden-xs"></div>
+            <div class="col-md-5 col-sm-7 obj">
+                <p id="h4">自傳</p>
+            </div>
+            <div class="col-md-10 col-sm-10 col-xs-offset-1">
+                <p class="session_txt">Hi,我是紫婷，我目前的工作經驗大致都與ERP開發相關。</p>
+                <p class="session_txt">第一份工作使用ASP+Oracle，主要負責百貨商場POS+ERP系統維運與需求開發，接觸模組包含專櫃POS資料串接、銀行對帳、報表開發、會計結帳、電子發票上傳。</p>
+                <p class="session_txt">第二份工作使用ASP.NET(WebForm)+MSSQL，主要負責企業車輛租賃系統ERP維運與需求開發，接觸模組包含客戶資料、試算利率、徵信、車輛採購、報表分析、合約列印。</p>
+                <p class="session_txt">業餘時間有嘗試接觸各種MVC框架相關課程與練習，如ASP.NET C# MVC，ASP.NET CORE，Java SpringBoot，PHP Laravel，另外也參與物件導向課程以及基礎網頁前端課程。期許未來工作能夠跳脫舒適圈，有更多實務經驗，與團隊一同進步，提升專業能力寫出更優雅簡潔，有彈性且利於維護的程式碼。</p>-->
+                <!--<p class="session_txt">國中就開始的住校生活，讓我養成獨立自主的習慣。從小就喜歡玩線上遊戲，對資訊方面非常有興趣，大學選擇了資訊相關的資傳系。大學時期主要學習網頁設計、程式設計、資料庫管理、動畫影片製作、遊戲製作等課程。我的個性認真，讓我在大學時期一直保持前三名的好成績，完成的專題也屢次獲獎。我在大四專題第一次負責主要程式的開發，從此對程式開發非常有興趣，也確定了未來的志向。碩士時期主要研究題目為數位學習相關的領域。需要自行設計遊戲、製作問卷、分析受測者資料。讓我練習遊戲設計、深入探討問題以及整理、分析數據的能力。</p>
+                <p class="session_txt">畢業後進入職場，第一份工作進入宏誌科技擔任系統工程師。宏誌科技的業務包含商場收銀機台以及ERP系統。我主要負責後台ERP系統維運與客戶需求開發。宏誌科技的ERP系統包含的範圍非常廣泛，包含商場營運、各類報表、會員系統、禮券系統、促銷活動系統、各種資料串接。任職期間我更加熟悉關聯式資料庫的維運與管理、資料表串接設計、SQL語法以及資料庫排程、PL/SQL Procedure與Function 的應用。此外不僅公司內部與前台收銀機的交易資料串接，我也接觸許多與其他外部公司的API接口：如與銀行的對帳資料介接，悠遊卡、一卡通資料對接，百貨業者內部系統串接等。在宏誌任職期間，不僅讓我更加了解各種功能如何實作，也培養我獨立解決問題的能力。</p>
+                <p class="session_txt">我熱愛挑戰，不僅是工作上，日常生活中我也喜歡挑戰自我。在閒暇時間，我會和朋友挑戰騎長途腳踏車，之前挑戰環台北市(81KM)、環北海岸(115KM)、內湖->永安漁港來回(146KM)，今年三月還報名了名古屋女子馬拉松全馬完賽。這些經歷除了自我挑戰外，也培養我堅持到底的毅力。未來我希望能夠用我勇往直前的熱情，持續精進我的專業以及開發能力，累積更多經驗，提升自我價值。</p>-->
+            <!--</div>-->
+
+            <div class="clearfix hidden-xs"></div>
+        </div>
+        <br><br><br><br><br>
+    </div>
+    <script>showfooter();</script>
+</body>
+
+</html>
