@@ -1,0 +1,516 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <ProjectGuid>{8E72413E-9F04-41D3-BAF2-8F3BB8ABF99C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <OutputPath>bin</OutputPath>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="app.css" />
+    <Content Include="default.htm" />
+    <Content Include="img\BG.png" />
+    <Content Include="img\BG1.png" />
+    <Content Include="img\BG2.png" />
+    <Content Include="img\BG3.png" />
+    <Content Include="img\BG4.png" />
+    <Content Include="img\BG5.png" />
+    <Content Include="img\BG6.png" />
+    <Content Include="img\BG7.png" />
+    <Content Include="img\help_ans_11.png" />
+    <Content Include="img\help_ans_13.png" />
+    <Content Include="img\help_ans_14.png" />
+    <Content Include="img\help_ans_15.png" />
+    <Content Include="img\help_ans_17.png" />
+    <Content Include="img\help_ans_18.png" />
+    <Content Include="img\help_ans_19.png" />
+    <Content Include="img\help_ans_2.png" />
+    <Content Include="img\help_ans_21.png" />
+    <Content Include="img\help_ans_22.png" />
+    <Content Include="img\help_ans_23.png" />
+    <Content Include="img\help_ans_25.png" />
+    <Content Include="img\help_ans_26.png" />
+    <Content Include="img\help_ans_27.png" />
+    <Content Include="img\help_ans_29.png" />
+    <Content Include="img\help_ans_3.png" />
+    <Content Include="img\help_ans_30.png" />
+    <Content Include="img\help_ans_31.png" />
+    <Content Include="img\help_ans_32.png" />
+    <Content Include="img\help_ans_33.png" />
+    <Content Include="img\help_ans_34.png" />
+    <Content Include="img\help_ans_35.png" />
+    <Content Include="img\help_ans_36.png" />
+    <Content Include="img\help_ans_37.png" />
+    <Content Include="img\help_ans_4.png" />
+    <Content Include="img\help_ans_7.png" />
+    <Content Include="img\help_ans_9.png" />
+    <Content Include="img\help_board_open_BTN.png" />
+    <Content Include="img\help_board_clear_BTN.png" />
+    <Content Include="img\help_board_close_BTN.png" />
+    <Content Include="img\help_board_eraser.png" />
+    <Content Include="img\help_board_pen_BTN.png" />
+    <Content Include="img\help_board_return_BTN.png" />
+    <Content Include="img\cp_1.png" />
+    <Content Include="img\cp_2.png" />
+    <Content Include="img\cp_3.png" />
+    <Content Include="img\cp_4.png" />
+    <Content Include="img\cp_boy.png" />
+    <Content Include="img\cp_BTN_backhome.png" />
+    <Content Include="img\BTN_left.png" />
+    <Content Include="img\BTN_right.png" />
+    <Content Include="img\cp_BTN_sure.png" />
+    <Content Include="img\cp_B_EYE1.png" />
+    <Content Include="img\cp_B_EYE2.png" />
+    <Content Include="img\cp_B_EYE3.png" />
+    <Content Include="img\cp_B_EYE4.png" />
+    <Content Include="img\cp_B_FACE_C.png" />
+    <Content Include="img\cp_B_H1C1.png" />
+    <Content Include="img\cp_B_H1C2.png" />
+    <Content Include="img\cp_B_H2C1.png" />
+    <Content Include="img\cp_B_H2C2.png" />
+    <Content Include="img\cp_B_H3C1.png" />
+    <Content Include="img\cp_B_H3C2.png" />
+    <Content Include="img\cp_B_OTHER.png" />
+    <Content Include="img\cp_create_p_text.png" />
+    <Content Include="img\cp_eyetext.png" />
+    <Content Include="img\cp_girl.png" />
+    <Content Include="img\cp_G_EYE1.png" />
+    <Content Include="img\cp_G_EYE2.png" />
+    <Content Include="img\cp_G_EYE3.png" />
+    <Content Include="img\cp_G_EYE4.png" />
+    <Content Include="img\cp_G_FACE_C.png" />
+    <Content Include="img\cp_G_H1C1.png" />
+    <Content Include="img\cp_G_H1C2.png" />
+    <Content Include="img\cp_G_H2C1.png" />
+    <Content Include="img\cp_G_H2C2.png" />
+    <Content Include="img\cp_G_H3C1.png" />
+    <Content Include="img\cp_G_H3C2.png" />
+    <Content Include="img\cp_G_OTHER.png" />
+    <Content Include="img\cp_hairCtext.png" />
+    <Content Include="img\cp_hairtext.png" />
+    <Content Include="img\cp_left.png" />
+    <Content Include="img\cp_numframe.png" />
+    <Content Include="img\cp_p_name_text.png" />
+    <Content Include="img\cp_right.png" />
+    <Content Include="img\cp_sextext.png" />
+    <Content Include="img\cp_shadow.png" />
+    <Content Include="img\cp_space.png" />
+    <Content Include="img\empty.png" />
+    <Content Include="img\FACE\B_111.png" />
+    <Content Include="img\FACE\B_112.png" />
+    <Content Include="img\FACE\B_113.png" />
+    <Content Include="img\FACE\B_114.png" />
+    <Content Include="img\FACE\B_121.png" />
+    <Content Include="img\FACE\B_122.png" />
+    <Content Include="img\FACE\B_123.png" />
+    <Content Include="img\FACE\B_124.png" />
+    <Content Include="img\FACE\B_211.png" />
+    <Content Include="img\FACE\B_212.png" />
+    <Content Include="img\FACE\B_213.png" />
+    <Content Include="img\FACE\B_214.png" />
+    <Content Include="img\FACE\B_221.png" />
+    <Content Include="img\FACE\B_222.png" />
+    <Content Include="img\FACE\B_223.png" />
+    <Content Include="img\FACE\B_224.png" />
+    <Content Include="img\FACE\B_311.png" />
+    <Content Include="img\FACE\B_312.png" />
+    <Content Include="img\FACE\B_313.png" />
+    <Content Include="img\FACE\B_314.png" />
+    <Content Include="img\FACE\B_321.png" />
+    <Content Include="img\FACE\B_322.png" />
+    <Content Include="img\FACE\B_323.png" />
+    <Content Include="img\FACE\B_324.png" />
+    <Content Include="img\FACE\G_111.png" />
+    <Content Include="img\FACE\G_112.png" />
+    <Content Include="img\FACE\G_113.png" />
+    <Content Include="img\FACE\G_114.png" />
+    <Content Include="img\FACE\G_121.png" />
+    <Content Include="img\FACE\G_122.png" />
+    <Content Include="img\FACE\G_123.png" />
+    <Content Include="img\FACE\G_124.png" />
+    <Content Include="img\FACE\G_211.png" />
+    <Content Include="img\FACE\G_212.png" />
+    <Content Include="img\FACE\G_213.png" />
+    <Content Include="img\FACE\G_214.png" />
+    <Content Include="img\FACE\G_221.png" />
+    <Content Include="img\FACE\G_222.png" />
+    <Content Include="img\FACE\G_223.png" />
+    <Content Include="img\FACE\G_224.png" />
+    <Content Include="img\FACE\G_311.png" />
+    <Content Include="img\FACE\G_312.png" />
+    <Content Include="img\FACE\G_313.png" />
+    <Content Include="img\FACE\G_314.png" />
+    <Content Include="img\FACE\G_321.png" />
+    <Content Include="img\FACE\G_322.png" />
+    <Content Include="img\FACE\G_323.png" />
+    <Content Include="img\FACE\G_324.png" />
+    <Content Include="img\fp_bg.png" />
+    <Content Include="img\fp_bigstar.png" />
+    <Content Include="img\fp_bigstar_2.png" />
+    <Content Include="img\fp_BTN_continue.png" />
+    <Content Include="img\fp_facecycle.png" />
+    <Content Include="img\fp_face_B1.png" />
+    <Content Include="img\fp_face_G1.png" />
+    <Content Include="img\fp_BTN_newgame.png" />
+    <Content Include="img\fp_rainbow.png" />
+    <Content Include="img\fp_signtext_1.png" />
+    <Content Include="img\fp_signtext_2.png" />
+    <Content Include="img\fp_smallstar.png" />
+    <Content Include="img\fp_smallstar_2.png" />
+    <Content Include="img\gray.png" />
+    <Content Include="img\help_ans_BTN.png" />
+    <Content Include="img\help_prompt_11.png" />
+    <Content Include="img\help_prompt_13.png" />
+    <Content Include="img\help_prompt_14.png" />
+    <Content Include="img\help_prompt_15.png" />
+    <Content Include="img\help_prompt_17.png" />
+    <Content Include="img\help_prompt_18.png" />
+    <Content Include="img\help_prompt_19.png" />
+    <Content Include="img\help_prompt_2.png" />
+    <Content Include="img\help_prompt_21.png" />
+    <Content Include="img\help_prompt_22.png" />
+    <Content Include="img\help_prompt_23.png" />
+    <Content Include="img\help_prompt_25.png" />
+    <Content Include="img\help_prompt_26.png" />
+    <Content Include="img\help_prompt_27.png" />
+    <Content Include="img\help_prompt_29.png" />
+    <Content Include="img\help_prompt_3.png" />
+    <Content Include="img\help_prompt_30.png" />
+    <Content Include="img\help_prompt_31.png" />
+    <Content Include="img\help_prompt_32.png" />
+    <Content Include="img\help_prompt_33.png" />
+    <Content Include="img\help_prompt_34.png" />
+    <Content Include="img\help_prompt_35.png" />
+    <Content Include="img\help_prompt_36.png" />
+    <Content Include="img\help_prompt_37.png" />
+    <Content Include="img\help_prompt_4.png" />
+    <Content Include="img\help_prompt_7.png" />
+    <Content Include="img\help_prompt_9.png" />
+    <Content Include="img\help_prompt_BTN.png" />
+    <Content Include="img\lc_lock.png" />
+    <Content Include="img\lc_movie.png" />
+    <Content Include="img\lc_STAR0.png" />
+    <Content Include="img\lc_STAR1.png" />
+    <Content Include="img\lc_task.png" />
+    <Content Include="img\lc_task_stone.png" />
+    <Content Include="img\lc_title_logic.png" />
+    <Content Include="img\lc_title_rule.png" />
+    <Content Include="img\lc_title_startend.png" />
+    <Content Include="img\lc_title_super.png" />
+    <Content Include="img\lc_title_X.png" />
+    <Content Include="img\lg_B1.png" />
+    <Content Include="img\lg_facecycle.png" />
+    <Content Include="img\lg_G1.png" />
+    <Content Include="img\lg_learngoal_text.png" />
+    <Content Include="img\lg_lock.png" />
+    <Content Include="img\lg_logic.png" />
+    <Content Include="img\lg_redline.png" />
+    <Content Include="img\lg_review.png" />
+    <Content Include="img\lg_rule.png" />
+    <Content Include="img\lg_star.png" />
+    <Content Include="img\lg_startend.png" />
+    <Content Include="img\lg_super.png" />
+    <Content Include="img\lg_X.png" />
+    <Content Include="img\load1.png" />
+    <Content Include="img\load2.png" />
+    <Content Include="img\load3.png" />
+    <Content Include="img\mark_end.png" />
+    <Content Include="img\mark_ob_edge.png" />
+    <Content Include="img\mark_ob_node.png" />
+    <Content Include="img\mark_start.png" />
+    <Content Include="img\mark_startend.png" />
+    <Content Include="img\mf_hook.png" />
+    <Content Include="img\mf_Q01.png" />
+    <Content Include="img\mf_Q02-1.png" />
+    <Content Include="img\mf_Q02-2.png" />
+    <Content Include="img\mf_Q02-3.png" />
+    <Content Include="img\mf_Q03-1.png" />
+    <Content Include="img\mf_Q03-2.png" />
+    <Content Include="img\mf_Q03-3.png" />
+    <Content Include="img\mf_Q04-1.png" />
+    <Content Include="img\mf_Q04-2.png" />
+    <Content Include="img\mf_Q04-3.png" />
+    <Content Include="img\mf_Q05-1.png" />
+    <Content Include="img\mf_Q05-2.png" />
+    <Content Include="img\mf_Q05-3.png" />
+    <Content Include="img\mf_Q06-1.png" />
+    <Content Include="img\mf_Q06-2.png" />
+    <Content Include="img\mf_Q06-3.png" />
+    <Content Include="img\mf_Q07-1.png" />
+    <Content Include="img\mf_Q07-2.png" />
+    <Content Include="img\mf_Q07-3.png" />
+    <Content Include="img\mf_Q08-1.png" />
+    <Content Include="img\mf_Q08-2.png" />
+    <Content Include="img\mf_Q08-3.png" />
+    <Content Include="img\mf_Q09-1.png" />
+    <Content Include="img\mf_Q09-2.png" />
+    <Content Include="img\mf_Q09-3.png" />
+    <Content Include="img\mf_Q10-1.png" />
+    <Content Include="img\mf_Q10-2.png" />
+    <Content Include="img\mf_Q10-3.png" />
+    <Content Include="img\movie_BTN_answer.png" />
+    <Content Include="img\movie_finish_bg.png" />
+    <Content Include="img\movie_finish_BTN_againEaxm.png" />
+    <Content Include="img\movie_finish_BTN_againMovie.png" />
+    <Content Include="img\movie_finish_BTN_next.png" />
+    <Content Include="img\movie_finish_cat.png" />
+    <Content Include="img\movie_finish_left.png" />
+    <Content Include="img\movie_finish_right.png" />
+    <Content Include="img\movie_finish_small_STAR0.png" />
+    <Content Include="img\movie_finish_small_STAR1.png" />
+    <Content Include="img\movie_hook.png" />
+    <Content Include="img\movie_Q01-1_A.png" />
+    <Content Include="img\movie_Q01-1_B.png" />
+    <Content Include="img\movie_Q01-2_A.png" />
+    <Content Include="img\movie_Q01-2_B.png" />
+    <Content Include="img\movie_Q01-3_A.png" />
+    <Content Include="img\movie_Q01-3_B.png" />
+    <Content Include="img\movie_Q01.png" />
+    <Content Include="img\movie_Q02-1.png" />
+    <Content Include="img\movie_Q02-1_A.png" />
+    <Content Include="img\movie_Q02-1_B.png" />
+    <Content Include="img\movie_Q02-1_C.png" />
+    <Content Include="img\movie_Q02-2.png" />
+    <Content Include="img\movie_Q02-2_A.png" />
+    <Content Include="img\movie_Q02-2_B.png" />
+    <Content Include="img\movie_Q02-3.png" />
+    <Content Include="img\movie_Q02-3_A.png" />
+    <Content Include="img\movie_Q02-3_B.png" />
+    <Content Include="img\movie_Q03-1.png" />
+    <Content Include="img\movie_Q03-1_A.png" />
+    <Content Include="img\movie_Q03-1_B.png" />
+    <Content Include="img\movie_Q03-1_C.png" />
+    <Content Include="img\movie_Q03-2.png" />
+    <Content Include="img\movie_Q03-2_A.png" />
+    <Content Include="img\movie_Q03-2_B.png" />
+    <Content Include="img\movie_Q03-2_C.png" />
+    <Content Include="img\movie_Q03-3.png" />
+    <Content Include="img\movie_Q03-3_A.png" />
+    <Content Include="img\movie_Q03-3_B.png" />
+    <Content Include="img\movie_Q03-3_C.png" />
+    <Content Include="img\movie_Q03-3_D.png" />
+    <Content Include="img\movie_Q04-1.png" />
+    <Content Include="img\movie_Q04-1_A.png" />
+    <Content Include="img\movie_Q04-1_B.png" />
+    <Content Include="img\movie_Q04-1_C.png" />
+    <Content Include="img\movie_Q04-2.png" />
+    <Content Include="img\movie_Q04-2_A.png" />
+    <Content Include="img\movie_Q04-2_B.png" />
+    <Content Include="img\movie_Q04-2_C.png" />
+    <Content Include="img\movie_Q04-3.png" />
+    <Content Include="img\movie_Q04-3_A.png" />
+    <Content Include="img\movie_Q04-3_B.png" />
+    <Content Include="img\movie_Q05-1.png" />
+    <Content Include="img\movie_Q05-1_A.png" />
+    <Content Include="img\movie_Q05-1_B.png" />
+    <Content Include="img\movie_Q05-1_C.png" />
+    <Content Include="img\movie_Q05-2.png" />
+    <Content Include="img\movie_Q05-2_A.png" />
+    <Content Include="img\movie_Q05-2_B.png" />
+    <Content Include="img\movie_Q05-2_C.png" />
+    <Content Include="img\movie_Q05-3.png" />
+    <Content Include="img\movie_Q05-3_A.png" />
+    <Content Include="img\movie_Q05-3_B.png" />
+    <Content Include="img\movie_Q06-1.png" />
+    <Content Include="img\movie_Q06-1_A.png" />
+    <Content Include="img\movie_Q06-1_B.png" />
+    <Content Include="img\movie_Q06-2.png" />
+    <Content Include="img\movie_Q06-2_A.png" />
+    <Content Include="img\movie_Q06-2_B.png" />
+    <Content Include="img\movie_Q06-2_C.png" />
+    <Content Include="img\movie_Q06-3.png" />
+    <Content Include="img\movie_Q06-3_A.png" />
+    <Content Include="img\movie_Q06-3_B.png" />
+    <Content Include="img\movie_Q06-3_C.png" />
+    <Content Include="img\movie_Q07-1.png" />
+    <Content Include="img\movie_Q07-1_A.png" />
+    <Content Include="img\movie_Q07-1_B.png" />
+    <Content Include="img\movie_Q07-1_C.png" />
+    <Content Include="img\movie_Q07-2.png" />
+    <Content Include="img\movie_Q07-2_A.png" />
+    <Content Include="img\movie_Q07-2_B.png" />
+    <Content Include="img\movie_Q07-3.png" />
+    <Content Include="img\movie_Q07-3_A.png" />
+    <Content Include="img\movie_Q07-3_B.png" />
+    <Content Include="img\movie_Q08-1.png" />
+    <Content Include="img\movie_Q08-1_A.png" />
+    <Content Include="img\movie_Q08-1_B.png" />
+    <Content Include="img\movie_Q08-1_C.png" />
+    <Content Include="img\movie_Q08-2.png" />
+    <Content Include="img\movie_Q08-2_A.png" />
+    <Content Include="img\movie_Q08-2_B.png" />
+    <Content Include="img\movie_Q08-2_C.png" />
+    <Content Include="img\movie_Q08-3.png" />
+    <Content Include="img\movie_Q08-3_A.png" />
+    <Content Include="img\movie_Q08-3_B.png" />
+    <Content Include="img\movie_Q08-3_C.png" />
+    <Content Include="img\movie_Q09-1.png" />
+    <Content Include="img\movie_Q09-1_A.png" />
+    <Content Include="img\movie_Q09-1_B.png" />
+    <Content Include="img\movie_Q09-1_C.png" />
+    <Content Include="img\movie_Q09-2.png" />
+    <Content Include="img\movie_Q09-2_A.png" />
+    <Content Include="img\movie_Q09-2_B.png" />
+    <Content Include="img\movie_Q09-2_C.png" />
+    <Content Include="img\movie_Q09-3.png" />
+    <Content Include="img\movie_Q09-3_A.png" />
+    <Content Include="img\movie_Q09-3_B.png" />
+    <Content Include="img\movie_Q09-3_C.png" />
+    <Content Include="img\movie_Q10-1.png" />
+    <Content Include="img\movie_Q10-1_A.png" />
+    <Content Include="img\movie_Q10-1_B.png" />
+    <Content Include="img\movie_Q10-1_C.png" />
+    <Content Include="img\movie_Q10-2.png" />
+    <Content Include="img\movie_Q10-2_A.png" />
+    <Content Include="img\movie_Q10-2_B.png" />
+    <Content Include="img\movie_Q10-2_C.png" />
+    <Content Include="img\movie_Q10-2_D.png" />
+    <Content Include="img\movie_Q10-3.png" />
+    <Content Include="img\movie_Q10-3_A.png" />
+    <Content Include="img\movie_Q10-3_B.png" />
+    <Content Include="img\movie_Q10-3_C.png" />
+    <Content Include="img\movie_Q_BTN_grade.png" />
+    <Content Include="img\movie_select.png" />
+    <Content Include="img\movie_title_apply.png" />
+    <Content Include="img\movie_title_cycle.png" />
+    <Content Include="img\movie_title_follow.png" />
+    <Content Include="img\movie_title_rule.png" />
+    <Content Include="img\movie_title_startend.png" />
+    <Content Include="img\movie_title_three.png" />
+    <Content Include="img\movie_title_two.png" />
+    <Content Include="img\movie_title_X.png" />
+    <Content Include="img\movie_title_XX.png" />
+    <Content Include="img\road_hard1.png" />
+    <Content Include="img\road_hard2.png" />
+    <Content Include="img\road_hard3.png" />
+    <Content Include="img\road_middle3.png" />
+    <Content Include="img\road_middle2.png" />
+    <Content Include="img\road_middle1.png" />
+    <Content Include="img\road_simple3.png" />
+    <Content Include="img\road_simple1.png" />
+    <Content Include="img\road_simple2.png" />
+    <Content Include="img\task_finish_bg.png" />
+    <Content Include="img\task_finish_BTN_again.png" />
+    <Content Include="img\task_finish_BTN_next.png" />
+    <Content Include="img\task_finish_cat.png" />
+    <Content Include="img\task_finish_STAR1.png" />
+    <Content Include="img\task_help_bg.png" />
+    <Content Include="img\task_help_BTN_buy.png" />
+    <Content Include="img\task_help_BTN_return.png" />
+    <Content Include="img\task_help_cost.png" />
+    <Content Include="img\task_help_red_frame.png" />
+    <Content Include="img\task_help_star1.png" />
+    <Content Include="img\task_help_star2.png" />
+    <Content Include="img\task_help_star3.png" />
+    <Content Include="img\task_p_BTN_back.png" />
+    <Content Include="img\task_p_BTN_clear.png" />
+    <Content Include="img\task_p_BTN_help.png" />
+    <Content Include="img\task_p_BTN_sure.png" />
+    <Content Include="img\task_p_stone.png" />
+    <Content Include="img\task_p_title.png" />
+    <Content Include="img\task_p_title_DSE.png" />
+    <Content Include="img\task_p_title_DSE_end_BTN.png" />
+    <Content Include="img\task_p_title_DSE_start_BTN.png" />
+    <Content Include="img\task_p_title_DX.png" />
+    <Content Include="img\task_p_title_DX_edge_BTN.png" />
+    <Content Include="img\task_p_title_DX_node_BTN.png" />
+    <Content Include="img\task_p_title_startend.png" />
+    <Content Include="img\task_p_title_X.png" />
+    <Content Include="img\X.png" />
+    <Content Include="movie\movie.mp4" />
+    <Content Include="movie\movie1.mp4" />
+    <Content Include="movie\movie_3rule.mp4" />
+    <Content Include="movie\movie_cycle.mp4" />
+    <Content Include="movie\movie_rule.mp4" />
+    <Content Include="movie\movie_se1.mp4" />
+    <Content Include="movie\movie_se2.mp4" />
+    <Content Include="movie\movie_THREE.mp4" />
+    <Content Include="movie\movie_X.mp4" />
+    <Content Include="music\first.mp3" />
+    <Content Include="music\first.wav" />
+    <Content Include="music\game.mp3" />
+    <Content Include="music\game.wav" />
+    <Content Include="music\key2-2.mp3" />
+    <Content Include="music\key2-2.wav" />
+    <Content Include="music\key5-2.mp3" />
+    <Content Include="music\key5-2.wav" />
+    <Content Include="music\key5-3.mp3" />
+    <Content Include="music\key5-3.wav" />
+    <Content Include="music\key6-12.mp3" />
+    <Content Include="music\key6-12.wav" />
+    <Content Include="music\key_music.mp3" />
+    <Content Include="music\key_music.wav" />
+    <Content Include="music\put.mp3" />
+    <Content Include="music\put.wav" />
+    <Content Include="music\select.mp3" />
+    <Content Include="music\select.wav" />
+    <Content Include="music\walk.mp3" />
+    <Content Include="music\walk.wav" />
+    <Content Include="music\wrong.mp3" />
+    <Content Include="music\wrong.wav" />
+    <Content Include="test.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="music\first.ogg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="music\game.ogg" />
+    <Content Include="music\key2-2.ogg" />
+    <Content Include="music\key5-2.ogg" />
+    <Content Include="music\key5-3.ogg" />
+    <Content Include="music\key6-12.ogg" />
+    <Content Include="music\put.ogg" />
+    <Content Include="music\select.ogg" />
+    <Content Include="music\walk.ogg" />
+    <Content Include="music\wrong.ogg" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>justlearn</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:14991/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptTarget>ES3</TypeScriptTarget>
+    <TypeScriptIncludeComments>true</TypeScriptIncludeComments>
+    <TypeScriptSourceMap>true</TypeScriptSourceMap>
+    <TypeScriptModuleKind>AMD</TypeScriptModuleKind>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <TypeScriptTarget>ES3</TypeScriptTarget>
+    <TypeScriptIncludeComments>false</TypeScriptIncludeComments>
+    <TypeScriptSourceMap>false</TypeScriptSourceMap>
+    <TypeScriptModuleKind>AMD</TypeScriptModuleKind>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\TypeScript\Microsoft.TypeScript.targets" />
+</Project>
