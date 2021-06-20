@@ -1,0 +1,478 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <ProjectGuid>{9435B68B-6B77-47F0-9F5F-AB270EE42357}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <OutputPath>bin</OutputPath>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="animation\home0001.jpg" />
+    <Content Include="animation\home0002.jpg" />
+    <Content Include="animation\home0003.jpg" />
+    <Content Include="animation\home0004.jpg" />
+    <Content Include="animation\home0005.jpg" />
+    <Content Include="animation\home0006.jpg" />
+    <Content Include="animation\home0007.jpg" />
+    <Content Include="animation\home0008.jpg" />
+    <Content Include="animation\home0009.jpg" />
+    <Content Include="animation\home0010.jpg" />
+    <Content Include="animation\home0011.jpg" />
+    <Content Include="animation\home0012.jpg" />
+    <Content Include="animation\home0013.jpg" />
+    <Content Include="animation\home0014.jpg" />
+    <Content Include="animation\home0015.jpg" />
+    <Content Include="animation\home0016.jpg" />
+    <Content Include="animation\home0017.jpg" />
+    <Content Include="animation\home0018.jpg" />
+    <Content Include="animation\home0019.jpg" />
+    <Content Include="animation\home0020.jpg" />
+    <Content Include="animation\home0021.jpg" />
+    <Content Include="animation\home0022.jpg" />
+    <Content Include="animation\home0023.jpg" />
+    <Content Include="animation\home0024.jpg" />
+    <Content Include="animation\home0025.jpg" />
+    <Content Include="animation\home0026.jpg" />
+    <Content Include="animation\home0027.jpg" />
+    <Content Include="animation\home0028.jpg" />
+    <Content Include="animation\home0029.jpg" />
+    <Content Include="animation\home0030.jpg" />
+    <Content Include="animation\home0031.jpg" />
+    <Content Include="animation\home0032.jpg" />
+    <Content Include="animation\home0033.jpg" />
+    <Content Include="animation\home0034.jpg" />
+    <Content Include="animation\home0035.jpg" />
+    <Content Include="animation\home0036.jpg" />
+    <Content Include="animation\home0037.jpg" />
+    <Content Include="animation\home0038.jpg" />
+    <Content Include="animation\home0039.jpg" />
+    <Content Include="animation\home0040.jpg" />
+    <Content Include="animation\home0041.jpg" />
+    <Content Include="animation\home0042.jpg" />
+    <Content Include="animation\home0043.jpg" />
+    <Content Include="animation\home0044.jpg" />
+    <Content Include="animation\home0045.jpg" />
+    <Content Include="animation\home0046.jpg" />
+    <Content Include="animation\home0047.jpg" />
+    <Content Include="animation\home0048.jpg" />
+    <Content Include="animation\home0049.jpg" />
+    <Content Include="animation\home0050.jpg" />
+    <Content Include="animation\home0051.jpg" />
+    <Content Include="animation\home0052.jpg" />
+    <Content Include="animation\home0053.jpg" />
+    <Content Include="animation\home0054.jpg" />
+    <Content Include="animation\home0055.jpg" />
+    <Content Include="animation\home0056.jpg" />
+    <Content Include="animation\home0057.jpg" />
+    <Content Include="animation\home0058.jpg" />
+    <Content Include="animation\home0059.jpg" />
+    <Content Include="animation\home0060.jpg" />
+    <Content Include="animation\home0061.jpg" />
+    <Content Include="animation\home0062.jpg" />
+    <Content Include="animation\home0063.jpg" />
+    <Content Include="animation\home0064.jpg" />
+    <Content Include="animation\home0065.jpg" />
+    <Content Include="animation\home0066.jpg" />
+    <Content Include="animation\home0067.jpg" />
+    <Content Include="animation\home0068.jpg" />
+    <Content Include="animation\home0069.jpg" />
+    <Content Include="animation\home0070.jpg" />
+    <Content Include="animation\skip.png" />
+    <Content Include="app.css" />
+    <Content Include="default.htm" />
+    <Content Include="img\10.png" />
+    <Content Include="img\11.png" />
+    <Content Include="img\12.png" />
+    <Content Include="img\13.png" />
+    <Content Include="img\14.png" />
+    <Content Include="img\15.png" />
+    <Content Include="img\16.png" />
+    <Content Include="img\17.png" />
+    <Content Include="img\18.png" />
+    <Content Include="img\19.png" />
+    <Content Include="img\20.png" />
+    <Content Include="img\21.png" />
+    <Content Include="img\22.png" />
+    <Content Include="img\3.png" />
+    <Content Include="img\4.png" />
+    <Content Include="img\5.png" />
+    <Content Include="img\6.png" />
+    <Content Include="img\7.png" />
+    <Content Include="img\8.png" />
+    <Content Include="img\9.png" />
+    <Content Include="img\again_btn.png" />
+    <Content Include="img\ani_game1.png" />
+    <Content Include="img\ani_game2.png" />
+    <Content Include="img\ani_game3.png" />
+    <Content Include="img\ani_game4.png" />
+    <Content Include="img\ani_game5.png" />
+    <Content Include="img\ani_game6.png" />
+    <Content Include="img\ani_game7.png" />
+    <Content Include="img\ani_game8.png" />
+    <Content Include="img\ani_movie1.png" />
+    <Content Include="img\ani_movie2.png" />
+    <Content Include="img\ani_movie3.png" />
+    <Content Include="img\ani_movie4.png" />
+    <Content Include="img\ani_movie5.png" />
+    <Content Include="img\ani_movie6.png" />
+    <Content Include="img\ani_movie7.png" />
+    <Content Include="img\ani_movie8.png" />
+    <Content Include="img\ani_tablegame1.png" />
+    <Content Include="img\ani_tablegame2.png" />
+    <Content Include="img\ani_tablegame3.png" />
+    <Content Include="img\ani_tablegame4.png" />
+    <Content Include="img\ani_tablegame5.png" />
+    <Content Include="img\ani_tablegame6.png" />
+    <Content Include="img\ani_tablegame7.png" />
+    <Content Include="img\ani_tablegame8.png" />
+    <Content Include="img\attainments.png" />
+    <Content Include="img\attainments1.png" />
+    <Content Include="img\attainments2.png" />
+    <Content Include="img\attainments3.png" />
+    <Content Include="img\attainments4.png" />
+    <Content Include="img\attainments5.png" />
+    <Content Include="img\attainments6.png" />
+    <Content Include="img\attainments7.png" />
+    <Content Include="img\attainments8.png" />
+    <Content Include="img\attainments9.png" />
+    <Content Include="img\attainments_2.png" />
+    <Content Include="img\badge_A.png" />
+    <Content Include="img\badge_B.png" />
+    <Content Include="img\BG_Achievement.png" />
+    <Content Include="img\BG_Key.png" />
+    <Content Include="img\BG_Movie.png" />
+    <Content Include="img\bg_style1.png" />
+    <Content Include="img\bg_style2.png" />
+    <Content Include="img\bg_style3.png" />
+    <Content Include="img\bg_style4.png" />
+    <Content Include="img\bg_style5.png" />
+    <Content Include="img\btn_A_goBack_A.png" />
+    <Content Include="img\btn_A_goBack_B.png" />
+    <Content Include="img\btn_A_goHOME_A.png" />
+    <Content Include="img\btn_A_goHOME_B.png" />
+    <Content Include="img\btn_game.gif" />
+    <Content Include="img\btn_game.png" />
+    <Content Include="img\btn_K_01_1.png" />
+    <Content Include="img\btn_K_01_2.png" />
+    <Content Include="img\btn_K_02_1.png" />
+    <Content Include="img\btn_K_02_2.png" />
+    <Content Include="img\btn_K_03_1.png" />
+    <Content Include="img\btn_K_03_2.png" />
+    <Content Include="img\btn_K_04_1.png" />
+    <Content Include="img\btn_K_04_2.png" />
+    <Content Include="img\btn_K_05_1.png" />
+    <Content Include="img\btn_K_05_2.png" />
+    <Content Include="img\btn_K_06_1.png" />
+    <Content Include="img\btn_K_06_2.png" />
+    <Content Include="img\btn_K_continue.png" />
+    <Content Include="img\btn_K_goBack.png" />
+    <Content Include="img\btn_movie.gif" />
+    <Content Include="img\btn_movie.png" />
+    <Content Include="img\btn_M_Easy.png" />
+    <Content Include="img\btn_M_goBack.png" />
+    <Content Include="img\btn_M_Hard.png" />
+    <Content Include="img\btn_M_Medium.png" />
+    <Content Include="img\btn_M_topEASY.png" />
+    <Content Include="img\btn_M_topHARD.png" />
+    <Content Include="img\btn_M_topMEDIUM.png" />
+    <Content Include="img\btn_tableGame.gif" />
+    <Content Include="img\btn_tableGame.png" />
+    <Content Include="img\bt_GAME_again.png" />
+    <Content Include="img\bt_GAME_homepage.png" />
+    <Content Include="img\bt_GAME_last.png" />
+    <Content Include="img\bt_GAME_next.png" />
+    <Content Include="img\bt_GAME_save.png" />
+    <Content Include="img\bt_GAME_tips.png" />
+    <Content Include="img\continue.png" />
+    <Content Include="img\del.png" />
+    <Content Include="img\design.png" />
+    <Content Include="img\design1.png" />
+    <Content Include="img\design10.png" />
+    <Content Include="img\design11.png" />
+    <Content Include="img\design12.png" />
+    <Content Include="img\design13.png" />
+    <Content Include="img\design14.png" />
+    <Content Include="img\design15.png" />
+    <Content Include="img\design16.png" />
+    <Content Include="img\design17.png" />
+    <Content Include="img\design18.png" />
+    <Content Include="img\design19.png" />
+    <Content Include="img\design2.png" />
+    <Content Include="img\design20.png" />
+    <Content Include="img\design3.png" />
+    <Content Include="img\design4.png" />
+    <Content Include="img\design5.png" />
+    <Content Include="img\design6.png" />
+    <Content Include="img\design7.png" />
+    <Content Include="img\design8.png" />
+    <Content Include="img\design9.png" />
+    <Content Include="img\designbtn_background.png" />
+    <Content Include="img\designbtn_obstacle.png" />
+    <Content Include="img\designbtn_obstacle_lock.png" />
+    <Content Include="img\designbtn_order.png" />
+    <Content Include="img\designbtn_order_lock.png" />
+    <Content Include="img\designbtn_startend.png" />
+    <Content Include="img\designbtn_startend_lock.png" />
+    <Content Include="img\design_2.png" />
+    <Content Include="img\down_btn_end.png" />
+    <Content Include="img\down_btn_line.png" />
+    <Content Include="img\down_btn_ob_edge.png" />
+    <Content Include="img\down_btn_ob_node.png" />
+    <Content Include="img\down_btn_order.png" />
+    <Content Include="img\down_btn_start.png" />
+    <Content Include="img\down_btn_startend.png" />
+    <Content Include="img\down_btn_style1.png" />
+    <Content Include="img\down_btn_style2.png" />
+    <Content Include="img\down_btn_style3.png" />
+    <Content Include="img\down_btn_style4.png" />
+    <Content Include="img\down_btn_style5.png" />
+    <Content Include="img\empty_img.png" />
+    <Content Include="img\explain.png" />
+    <Content Include="img\explain_btn_startend.png" />
+    <Content Include="img\explain_end.png" />
+    <Content Include="img\explain_obstacle.png" />
+    <Content Include="img\explain_ob_edge.png" />
+    <Content Include="img\explain_ob_node.png" />
+    <Content Include="img\explain_order.png" />
+    <Content Include="img\explain_start.png" />
+    <Content Include="img\explain_startend.png" />
+    <Content Include="img\explain_style.png" />
+    <Content Include="img\firstpage.jpg" />
+    <Content Include="img\gamechoose_BG.png" />
+    <Content Include="img\gamedesign_BG.png" />
+    <Content Include="img\hard.png" />
+    <Content Include="img\hard_2.png" />
+    <Content Include="img\key.png" />
+    <Content Include="img\key1.png" />
+    <Content Include="img\key10.png" />
+    <Content Include="img\key11.png" />
+    <Content Include="img\key2.png" />
+    <Content Include="img\key3.png" />
+    <Content Include="img\key4.png" />
+    <Content Include="img\key5.png" />
+    <Content Include="img\key6.png" />
+    <Content Include="img\key7.png" />
+    <Content Include="img\key8.png" />
+    <Content Include="img\key9.png" />
+    <Content Include="img\key_2.png" />
+    <Content Include="img\level_BG.png" />
+    <Content Include="img\limit_1.png" />
+    <Content Include="img\limit_1_2.png" />
+    <Content Include="img\limit_2.png" />
+    <Content Include="img\limit_2_2.png" />
+    <Content Include="img\limit_3.png" />
+    <Content Include="img\limit_3_2.png" />
+    <Content Include="img\limit_BG.png" />
+    <Content Include="img\mark_end.png" />
+    <Content Include="img\mark_ob_edge.png" />
+    <Content Include="img\mark_ob_node.png" />
+    <Content Include="img\mark_start.png" />
+    <Content Include="img\mark_startend.png" />
+    <Content Include="img\middle.png" />
+    <Content Include="img\middle_2.png" />
+    <Content Include="img\perfect_A.png" />
+    <Content Include="img\perfect_B.png" />
+    <Content Include="img\play_BG.png" />
+    <Content Include="img\record.png" />
+    <Content Include="img\record1.png" />
+    <Content Include="img\record2.png" />
+    <Content Include="img\record3.png" />
+    <Content Include="img\record4.png" />
+    <Content Include="img\record5.png" />
+    <Content Include="img\record6.png" />
+    <Content Include="img\record7.png" />
+    <Content Include="img\record8.png" />
+    <Content Include="img\record_2.png" />
+    <Content Include="img\return_btn.png" />
+    <Content Include="img\road_hard1.png" />
+    <Content Include="img\road_hard2.png" />
+    <Content Include="img\road_hard3.png" />
+    <Content Include="img\road_middle2.png" />
+    <Content Include="img\road_middle3.png" />
+    <Content Include="img\road_simple1.png" />
+    <Content Include="img\road_middle1.png" />
+    <Content Include="img\road_simple2.png" />
+    <Content Include="img\road_simple3.png" />
+    <Content Include="img\save_1.png" />
+    <Content Include="img\save_2.png" />
+    <Content Include="img\save_3.png" />
+    <Content Include="img\save_4.png" />
+    <Content Include="img\save_5.png" />
+    <Content Include="img\save_6.png" />
+    <Content Include="img\save_7.png" />
+    <Content Include="img\save_bg.png" />
+    <Content Include="img\save_home_btn.png" />
+    <Content Include="img\save_last_btn.png" />
+    <Content Include="img\save_ok_btn.png" />
+    <Content Include="img\simple.png" />
+    <Content Include="img\simple_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="img\start_A.png" />
+    <Content Include="img\start_B.png" />
+    <Content Include="img\tg_BG.png" />
+    <Content Include="img\tg_circle.png" />
+    <Content Include="img\tg_circle_choose.png" />
+    <Content Include="img\tg_circle_last.png" />
+    <Content Include="img\tg_circle_next.png" />
+    <Content Include="img\tg_goback.png" />
+    <Content Include="img\tg_line.png" />
+    <Content Include="img\tg_next.png" />
+    <Content Include="img\tg_polygon.png" />
+    <Content Include="img\tg_polygon_choose.png" />
+    <Content Include="img\tg_rect.png" />
+    <Content Include="img\tg_rect_choose.png" />
+    <Content Include="img\tg_start.png" />
+    <Content Include="img\tip_say1.png" />
+    <Content Include="img\volumeB1.png" />
+    <Content Include="img\volumeB2.png" />
+    <Content Include="movie.mp4" />
+    <Content Include="movie1.mp4" />
+    <Content Include="movie2.mp4" />
+    <Content Include="movie3.mp4" />
+    <Content Include="movie_key1_1.mp4" />
+    <Content Include="movie_key1_1_1.mp4" />
+    <Content Include="movie_key1_2.mp4" />
+    <Content Include="movie_key1_3.mp4" />
+    <Content Include="movie_key1_4.mp4" />
+    <Content Include="movie_key1_5.mp4" />
+    <Content Include="movie_key1_6.mp4" />
+    <Content Include="movie_key1_7.mp4" />
+    <Content Include="movie_key1_8.mp4" />
+    <Content Include="movie_key1_9.mp4" />
+    <Content Include="movie_key2_1.mp4" />
+    <Content Include="movie_key2_10.mp4" />
+    <Content Include="movie_key2_11.mp4" />
+    <Content Include="movie_key2_2.mp4" />
+    <Content Include="movie_key2_3.mp4" />
+    <Content Include="movie_key2_4.mp4" />
+    <Content Include="movie_key2_5.mp4" />
+    <Content Include="movie_key2_6.mp4" />
+    <Content Include="movie_key2_7.mp4" />
+    <Content Include="movie_key2_8.mp4" />
+    <Content Include="movie_key2_9.mp4" />
+    <Content Include="movie_key3_1.mp4" />
+    <Content Include="movie_key3_2.mp4" />
+    <Content Include="movie_key3_3.mp4" />
+    <Content Include="movie_key3_4.mp4" />
+    <Content Include="movie_key3_5.mp4" />
+    <Content Include="movie_key3_6.mp4" />
+    <Content Include="movie_key3_7.mp4" />
+    <Content Include="movie_key4_1.mp4" />
+    <Content Include="movie_key4_2.mp4" />
+    <Content Include="movie_key4_3.mp4" />
+    <Content Include="movie_key4_4.mp4" />
+    <Content Include="movie_key4_5.mp4" />
+    <Content Include="movie_key4_6.mp4" />
+    <Content Include="movie_key4_7.mp4" />
+    <Content Include="movie_key5_1.mp4" />
+    <Content Include="movie_key5_2.mp4" />
+    <Content Include="movie_key5_3.mp4" />
+    <Content Include="movie_key5_4.mp4" />
+    <Content Include="movie_key5_5.mp4" />
+    <Content Include="movie_key5_6.mp4" />
+    <Content Include="movie_key5_7.mp4" />
+    <Content Include="movie_key6_1.mp4" />
+    <Content Include="movie_key6_10.mp4" />
+    <Content Include="movie_key6_11.mp4" />
+    <Content Include="movie_key6_12.mp4" />
+    <Content Include="movie_key6_2.mp4" />
+    <Content Include="movie_key6_3.mp4" />
+    <Content Include="movie_key6_4.mp4" />
+    <Content Include="movie_key6_5.mp4" />
+    <Content Include="movie_key6_6.mp4" />
+    <Content Include="movie_key6_7.mp4" />
+    <Content Include="movie_key6_8.mp4" />
+    <Content Include="movie_key6_9.mp4" />
+    <Content Include="music\first.mp3" />
+    <Content Include="music\first.wav" />
+    <Content Include="music\game.mp3" />
+    <Content Include="music\game.wav" />
+    <Content Include="music\key2-2.mp3" />
+    <Content Include="music\key2-2.wav" />
+    <Content Include="music\key5-2.mp3" />
+    <Content Include="music\key5-2.wav" />
+    <Content Include="music\key5-3.mp3" />
+    <Content Include="music\key5-3.wav" />
+    <Content Include="music\key6-12.mp3" />
+    <Content Include="music\key6-12.wav" />
+    <Content Include="music\key_music.mp3" />
+    <Content Include="music\key_music.wav" />
+    <Content Include="music\put.mp3" />
+    <Content Include="music\put.wav" />
+    <Content Include="music\select.mp3" />
+    <Content Include="music\select.wav" />
+    <Content Include="music\walk.mp3" />
+    <Content Include="music\walk.wav" />
+    <Content Include="music\wrong.mp3" />
+    <Content Include="music\wrong.wav" />
+    <Content Include="test.js" />
+    <Content Include="web.config" />
+    <Content Include="music\first.ogg" />
+    <Content Include="music\game.ogg" />
+    <Content Include="music\key2-2.ogg" />
+    <Content Include="music\key5-2.ogg" />
+    <Content Include="music\key5-3.ogg" />
+    <Content Include="music\key6-12.ogg" />
+    <Content Include="music\put.ogg" />
+    <Content Include="music\select.ogg" />
+    <Content Include="music\walk.ogg" />
+    <Content Include="music\wrong.ogg" />
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>justlearn</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:4600/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptTarget>ES3</TypeScriptTarget>
+    <TypeScriptIncludeComments>true</TypeScriptIncludeComments>
+    <TypeScriptSourceMap>true</TypeScriptSourceMap>
+    <TypeScriptModuleKind>AMD</TypeScriptModuleKind>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <TypeScriptTarget>ES3</TypeScriptTarget>
+    <TypeScriptIncludeComments>false</TypeScriptIncludeComments>
+    <TypeScriptSourceMap>false</TypeScriptSourceMap>
+    <TypeScriptModuleKind>AMD</TypeScriptModuleKind>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\TypeScript\Microsoft.TypeScript.targets" />
+</Project>
