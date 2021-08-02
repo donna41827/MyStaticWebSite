@@ -154,4 +154,7 @@ transition-delay:.2s;
     .inlineflex a.info {
         margin: 50px 2px 0px 2px;
     }
-
+.DemoImg {
+    width:100%;
+    margin-bottom:30px;
+}

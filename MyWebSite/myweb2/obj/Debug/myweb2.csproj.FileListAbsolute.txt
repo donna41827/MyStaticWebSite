@@ -5,3 +5,10 @@ C:\DotNetDevProject\橘皮的網頁\myweb2\obj\Debug\myweb2.csprojAssemblyRefere
 C:\DotNetDevProject\橘皮的網頁\myweb2\obj\Debug\myweb2.csproj.CoreCompileInputs.cache
 C:\DotNetDevProject\橘皮的網頁\myweb2\obj\Debug\myweb2.dll
 C:\DotNetDevProject\橘皮的網頁\myweb2\obj\Debug\myweb2.pdb
+C:\MyStaticWebSite\MyWebSite\myweb2\bin\myweb2.dll.config
+C:\MyStaticWebSite\MyWebSite\myweb2\bin\myweb2.dll
+C:\MyStaticWebSite\MyWebSite\myweb2\bin\myweb2.pdb
+C:\MyStaticWebSite\MyWebSite\myweb2\obj\Debug\myweb2.csprojAssemblyReference.cache
+C:\MyStaticWebSite\MyWebSite\myweb2\obj\Debug\myweb2.csproj.CoreCompileInputs.cache
+C:\MyStaticWebSite\MyWebSite\myweb2\obj\Debug\myweb2.dll
+C:\MyStaticWebSite\MyWebSite\myweb2\obj\Debug\myweb2.pdb

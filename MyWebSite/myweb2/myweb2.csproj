@@ -25,6 +25,7 @@
   <ItemGroup>
     <Content Include="app.css" />
     <Content Include="app.js" />
+    <Content Include="HundredImg.html" />
     <Content Include="img\APP SCRIPT.png" />
     <Content Include="img\ASP.jpg" />
     <Content Include="img\ASP.NET.jpg" />
@@ -57,7 +58,6 @@
     <Content Include="img\u1.jpg" />
     <Content Include="img\Word.png" />
     <Content Include="img\zoo_btn.png" />
-    <Content Include="portfolio.html" />
     <Content Include="img\my_pic.jpg" />
     <Content Include="index.html" />
     <Content Include="web.config" />

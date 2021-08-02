@@ -27,11 +27,11 @@ function shownav(page) {//依頁面顯示導覽列
     nav_str += '<div class="collapse navbar-collapse" id="myNavbar">';
     nav_str += '<ul class="nav navbar-nav navbar-right">';     
 
-    nav_str += '<li id="about"><a href="#about_tab">關於我</a></li>';
-    nav_str += '<li id="skill"><a href="#skill_tab">技能專長</a></li>';
-    nav_str += '<li id="exp"><a href="#exp_tab">經歷</a></li>';
-    nav_str += '<li id="portfolio"><a href="#prof_tab">作品集</a></li>';
-    nav_str += '<li id="mylife"><a href="#mylife_tab">自傳</a></li>';
+    nav_str += '<li id="about"><a href="index.html#about_tab">關於我</a></li>';
+    nav_str += '<li id="skill"><a href="index.html#skill_tab">技能專長</a></li>';
+    nav_str += '<li id="exp"><a href="index.html#exp_tab">經歷</a></li>';
+    nav_str += '<li id="portfolio"><a href="index.html#prof_tab">作品集</a></li>';
+    //nav_str += '<li id="mylife"><a href="#mylife_tab">自傳</a></li>';
     nav_str += '</ul></div></div></nav></div></div>';
 
     document.write(nav_str);

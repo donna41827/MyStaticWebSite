@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <script src="app.js"></script>
+    <script>
+        add_head();//引用bootstrap.JQuery.CSS資源
+    </script>
+</head>
+<body>
+    <div class="container" id="about_tab">
+        <script>
+            shownav('about');//引用JS寫入導覽列,頁面參數'about','portfolio','skill'
+        </script>
+
+        <div id="content">
+            <div class="row">
+                <div class="col-md-5 col-sm-7 obj">
+                    <p id="h4">百笑圖WinForm C#程式</p>
+                </div>
+                <div class="clearfix hidden-xs"></div>
+                <div class="col-md-offset-1 col-xs-offset-1 col-xs-10">
+                    <h3 class="centered">簡介</h3>
+                    <hr>
+                    <p>可將圖片自動裁剪成方形，並依特定格式拼湊成組合圖片。</p>
+                    <p>使用工具：WinForm、C#、VisualStudio</p>
+                    <p>負責部分：獨力完成</p>
+                    <p><a href="https://github.com/donna41827/HundredLaughtImg" target="_blank">GitHub</a></p>
+                </div>
+                <div class="col-md-offset-1 col-xs-offset-1 col-xs-10">
+                    <h3 class="centered">功能說明</h3>
+                    <hr>
+                    <p>初始畫面</p>
+                    <img src="img/HundredImg/0.PNG" class="DemoImg" />
+                    <p>選取需裁切圖片</p>
+                    <img src="img/HundredImg/1.png" class="DemoImg" />
+                    <p>編輯裁切區塊：於方形中可使用滑鼠滾輪縮放，並使用滑鼠拖拉圖片定位。</p>
+                    <video controls autoplay loop muted class="DemoImg">
+                        <source src="img/HundredImg/2.MouseEdit.mp4" type="video/mp4" />
+                    </video>
+                    <p>編輯裁切區塊：也可點選放大縮小按鈕進行圖片縮放。</p>
+                    <video controls autoplay loop muted class="DemoImg">
+                        <source src="img/HundredImg/3.BtnEdit.mp4" type="video/mp4" />
+                    </video>
+                    <p>編輯完成點選【確認】，將圖片儲存於路徑C:\LaughtersHundredImg</p>
+                    <img src="img/HundredImg/4.png" class="DemoImg" />
+                    <p>裁切多張圖片後，可點選右方區塊【選取圖片】，選取想要拼湊的圖片。點選【開啟】後，自動產出拼湊後的組合圖片供預覽。</p>
+                    <img src="img/HundredImg/5.png" class="DemoImg" />
+                    <p>點選【匯出圖檔】，即可儲存PNG圖檔(背景透明)。</p>
+                    <img src="img/HundredImg/6.png" class="DemoImg" />
+                    <p>於選取路徑可查看匯出圖檔。</p>
+                    <img src="img/HundredImg/7.png" class="DemoImg" />
+                    <p>另可編輯圖片張數及中間文字區塊顯示內容。選取張數超過圖片數量，則以前幾張顯示。</p>
+                    <img src="img/HundredImg/8.png" class="DemoImg" />
+                </div>
+            </div>
+        </div>
+        <br><br><br><br><br>
+    </div>
+    <script>showfooter();</script>
+</body>
+
+</html>
