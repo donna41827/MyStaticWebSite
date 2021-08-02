@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <script src="app.js"></script>
+    <script>
+        add_head();//引用bootstrap.JQuery.CSS資源
+    </script>
+</head>
+<body>
+    <div class="container" id="about_tab">
+        <script>
+            shownav('about');//引用JS寫入導覽列,頁面參數'about','portfolio','skill'
+        </script>
+
+        <div id="content">
+            <div class="row">
+                <div class="col-md-5 col-sm-7 obj">
+                    <p id="h4">SpringBoot CRUD 範例練習</p>
+                </div>
+                <div class="clearfix hidden-xs"></div>
+                <div class="col-md-offset-1 col-xs-offset-1 col-xs-10">
+                    <h3 class="centered">簡介</h3>
+                    <hr>
+                    <p>Thymeleaf畫面實作CRUD功能範例</p>
+                    <p>使用工具：Java Spring Boot、Thymeleaf、Eclipse、MSSQL</p>
+                    <p>負責部分：獨力完成</p>
+                    <p><a href="https://github.com/donna41827/SpringBootCRUD" target="_blank">GitHub</a></p>
+                </div>
+                <div class="col-md-offset-1 col-xs-offset-1 col-xs-10">
+                    <h3 class="centered">功能說明</h3>
+                    <hr>
+                    <p>影片Demo</p>
+                    <video controls autoplay loop muted>
+                        <source src="img/SpringBootCRUD/MyBooksDemo.mp4" type="video/mp4" />
+                    </video>
+                </div>
+            </div>
+        </div>
+        <br><br><br><br><br>
+    </div>
+    <script>showfooter();</script>
+</body>
+
+</html>
