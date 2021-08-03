@@ -61,6 +61,7 @@
     <Content Include="img\zoo_btn.png" />
     <Content Include="img\my_pic.jpg" />
     <Content Include="index.html" />
+    <Content Include="SpringBootAPI.html" />
     <Content Include="SpringBootCRUD.html" />
     <Content Include="web.config" />
   </ItemGroup>
