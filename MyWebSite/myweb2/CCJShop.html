@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <script src="app.js"></script>
+    <script>
+        add_head();//引用bootstrap.JQuery.CSS資源
+    </script>
+</head>
+<body>
+    <div class="container" id="about_tab">
+        <script>
+            shownav('about');//引用JS寫入導覽列,頁面參數'about','portfolio','skill'
+        </script>
+
+        <div id="content">
+            <div class="row">
+                <div class="col-md-5 col-sm-7 obj">
+                    <p id="h4">CCJShop</p>
+                </div>
+                <div class="clearfix hidden-xs"></div>
+                <div class="col-md-offset-1 col-xs-offset-1 col-xs-10">
+                    <h3 class="centered">簡介</h3>
+                    <hr>
+                    <p>以.Net Core C#實作商品列表CRUD功能。</p>
+                    <p>使用工具：.NET Core、C#、Visual Studio、MSSQL</p>
+                    <p>負責部分：獨力完成</p>
+                    <p><a href="https://github.com/donna41827/CCJShop" target="_blank">GitHub</a></p>
+                </div>
+                <div class="col-md-offset-1 col-xs-offset-1 col-xs-10">
+                    <h3 class="centered">功能說明</h3>
+                    <hr>
+                    <p>商品列表畫面列表，可依商品狀態篩選暫存或上架中資料，預設顯示上架中資料。</p>
+                    <video controls autoplay loop muted class="DemoImg">
+                        <source src="img/CCJShop/0.mp4" type="video/mp4" />
+                    </video>
+                    <p>新增功能(Demo含【新增】、【資料驗證】、【圖片順序調整】)。</p>
+                    <video controls autoplay loop muted class="DemoImg">
+                        <source src="img/CCJShop/1.mp4" type="video/mp4" />
+                    </video>
+                    <p>修改功能(Demo含【修改】、【商品明細】、【圖片順序調整】)。</p>
+                    <video controls autoplay loop muted class="DemoImg">
+                        <source src="img/CCJShop/2.mp4" type="video/mp4" />
+                    </video>
+                    <p>刪除功能(Demo含【確定刪除提示框】、【商品刪除】)。</p>
+                    <video controls autoplay loop muted class="DemoImg">
+                        <source src="img/CCJShop/3.mp4" type="video/mp4" />
+                    </video>
+                </div>
+            </div>
+        </div>
+        <br><br><br><br><br>
+    </div>
+    <script>showfooter();</script>
+</body>
+
+</html>

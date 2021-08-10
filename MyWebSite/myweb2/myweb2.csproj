@@ -25,12 +25,17 @@
   <ItemGroup>
     <Content Include="app.css" />
     <Content Include="app.js" />
+    <Content Include="CCJShop.html" />
     <Content Include="HundredImg.html" />
     <Content Include="img\APP SCRIPT.png" />
     <Content Include="img\ASP.jpg" />
     <Content Include="img\ASP.NET.jpg" />
     <Content Include="img\BGnew.gif" />
     <Content Include="img\Bootstrap.png" />
+    <Content Include="img\CCJShop\0.mp4" />
+    <Content Include="img\CCJShop\1.mp4" />
+    <Content Include="img\CCJShop\2.mp4" />
+    <Content Include="img\CCJShop\3.mp4" />
     <Content Include="img\CH.png" />
     <Content Include="img\CSS.png" />
     <Content Include="img\database.png" />
@@ -61,6 +66,7 @@
     <Content Include="img\zoo_btn.png" />
     <Content Include="img\my_pic.jpg" />
     <Content Include="index.html" />
+    <Content Include="DotNetCoreAPI.html" />
     <Content Include="SpringBootAPI.html" />
     <Content Include="SpringBootCRUD.html" />
     <Content Include="web.config" />
